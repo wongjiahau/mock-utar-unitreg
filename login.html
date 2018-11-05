@@ -110,7 +110,7 @@
 
 	
 	
-	<form name="frmParam" action="loginPro.jsp" method="post" onSubmit="return validate();">
+	<form name="frmParam" onSubmit="return validate();">
 	<input type="hidden" name="preKap" value="">
 		<table width="45%" border="0" align="center" cellpadding="0" cellspacing="0"  class="normal">
 			<tr> 
@@ -143,16 +143,16 @@
 				</td>
 			</tr>
 							
-			<tr> 
-				<td colspan="2"> 
-					<div align="center">
-						<input type="submit" value="Login" name="_submit" class="button" onclick="document.location.href='./masterSchedule1.html'"> 
-						<input type="reset" value="Reset" name="reset" class="button">
-					</div>
-				</td>
-			</tr>
 		</table>	
 	</form>
+				<tr> 
+					<td colspan="2"> 
+						<div align="center">
+							<button onclick="document.location.href='./masterSchedule1.html'">Login</button>
+							<input type="reset" value="Reset" name="reset" class="button">
+						</div>
+					</td>
+				</tr>
 </div>
 <div style="text-align:center;padding-top:5px;">Server time : <strong>08/10/2018 08:56:03</strong></div>
 
